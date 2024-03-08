@@ -60,6 +60,12 @@ function App() {
           >
             Olive
           </button>
+          <button
+            style={{ backgroundColor: "blue" }}
+            onClick={() => setcolor("blur")}
+          >
+            Olive
+          </button>
         </div>
       </div>
     </div>
