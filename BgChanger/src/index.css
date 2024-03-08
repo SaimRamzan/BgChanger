@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.main-div {
+  width: 100%;
+  height: 100vh;
+}
+.main-div .box {
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 2.75em;
+  left: 0px;
+  right: 0px;
+}
+.childbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75em;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 0.75em;
+}
+button {
+  border-radius: 0.5em;
+  padding: 20px 30px;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  /* border: none; */
+}
